@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_file/bookmark.png</file>
+        <file>icon_file/bookmark-filled.png</file>
+        <file>icon_file/calendar.png</file>
+        <file>icon_file/calendar-filled.png</file>
+        <file>icon_file/cancel.png</file>
+        <file>icon_file/checked.png</file>
+        <file>icon_file/checkmark.png</file>
+        <file>icon_file/checkmark-filled.png</file>
+        <file>icon_file/clock.png</file>
+        <file>icon_file/document.png</file>
+        <file>icon_file/edit.png</file>
+        <file>icon_file/file.png</file>
+        <file>icon_file/folder-invoices.png</file>
+        <file>icon_file/idea.png</file>
+        <file>icon_file/idea-filled.png</file>
+        <file>icon_file/myspace.png</file>
+        <file>icon_file/myspace-filled.png</file>
+        <file>icon_file/opened-folder.png</file>
+        <file>icon_file/opened-folder-filled.png</file>
+        <file>icon_file/share-3-filled.png</file>
+    </qresource>
+</RCC>

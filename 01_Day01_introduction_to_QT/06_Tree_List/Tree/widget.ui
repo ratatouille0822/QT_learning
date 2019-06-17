@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Test tree</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>351</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+    <property name="icon">
+     <iconset resource="src.qrc">
+      <normaloff>:/icon_file/folder-invoices.png</normaloff>
+      <normalon>:/icon_file/opened-folder.png</normalon>:/icon_file/folder-invoices.png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="icon">
+     <iconset resource="src.qrc">
+      <normaloff>:/icon_file/folder-invoices.png</normaloff>
+      <normalon>:/icon_file/opened-folder.png</normalon>:/icon_file/folder-invoices.png</iconset>
+    </property>
+    <property name="text">
+     <string>Liu, Bei</string>
+    </property>
+    <property name="text">
+     <string>Male</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>123</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

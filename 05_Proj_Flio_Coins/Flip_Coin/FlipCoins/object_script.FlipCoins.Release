@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\mypushbutton.o
+./release\chooselevel.o
+./release\playwindow.o
+./release\mycoin.o
+./release\dataconfig.o
+./release\qrc_src.o
+./release\moc_mainwindow.o
+./release\moc_mypushbutton.o
+./release\moc_chooselevel.o
+./release\moc_playwindow.o
+./release\moc_mycoin.o
+./release\moc_dataconfig.o
+);
